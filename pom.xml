@@ -23,6 +23,7 @@
     <properties>
         <poi.version>3.14</poi.version>
         <itext.version>5.5.12</itext.version>
+        <itext.version2>2.1.0</itext.version2>
         <!--5.5.12-->
         <docx4j.version>6.1.1</docx4j.version>
         <export.fo.version>8.1.1</export.fo.version>
@@ -89,7 +90,16 @@
             <artifactId>itext-asian</artifactId>
             <version>5.2.0</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.lowagie</groupId>
+            <artifactId>itext</artifactId>
+            <version>2.1.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.xhtmlrenderer</groupId>
+            <artifactId>flying-saucer-pdf</artifactId>
+            <version>9.0.8</version>
+        </dependency>
         <!--itext end-->
 
         <dependency>
@@ -138,8 +148,7 @@
         </dependency>-->
 
 
-        <!--测试-->
-
+        <!--docx4j word转pdf-->
         <dependency>
             <groupId>args4j</groupId>
             <artifactId>args4j</artifactId>
@@ -196,5 +205,12 @@
             <artifactId>poi-ooxml</artifactId>
             <version>3.14</version><!--$NO-MVN-MAN-VER$-->
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>5.2.2.RELEASE</version>
+        </dependency>
+
     </dependencies>
 </project>
