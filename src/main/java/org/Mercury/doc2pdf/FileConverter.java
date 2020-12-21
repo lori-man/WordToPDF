@@ -13,6 +13,7 @@ import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.springframework.util.FileCopyUtils;
 import org.w3c.dom.Document;
 import org.w3c.tidy.Tidy;
 import org.xhtmlrenderer.pdf.ITextFontResolver;
@@ -25,7 +26,9 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.*;
+import java.net.URL;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class FileConverter {
@@ -51,15 +54,16 @@ public class FileConverter {
      * targetFilePosition:生成的html文件路源word文件路径径
      */
 
-    private void docToHtml(String sourceFilePath, String targetFilePosition,String imagePath) throws Exception {
-        HWPFDocument wordDocument = new HWPFDocument(new FileInputStream(sourceFilePath));
+    private void docToHtml(String sourceFilePath, String targetFilePosition, String imagePath) throws Exception {
+        FileInputStream fileInputStream = new FileInputStream(sourceFilePath);
+        HWPFDocument wordDocument = new HWPFDocument(fileInputStream);
         Document document = DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument();
         WordToHtmlConverter wordToHtmlConverter = new WordToHtmlConverter(document);
         // 保存图片，并返回图片的相对路径
         wordToHtmlConverter.setPicturesManager(new PicturesManager() {
             @Override
             public String savePicture(byte[] content, PictureType pictureType, String name, float width, float height) {
-                try  {
+                try {
                     FileOutputStream out = new FileOutputStream(imagePath + "\\" + name);
                     out.write(content);
                 } catch (Exception e) {
@@ -79,7 +83,6 @@ public class FileConverter {
         serializer.setOutputProperty(OutputKeys.METHOD, "html");
         serializer.transform(domSource, streamResult);
 
-//        parseToXhtml(targetFilePosition, targetFilePosition + "tmp");
 
     }
 
@@ -218,7 +221,27 @@ public class FileConverter {
         // 解决中文支持问题
         ITextFontResolver fontResolver = renderer.getFontResolver();
         //D:\test\simsun.ttf
-        fontResolver.addFont("C:\\Windows\\Fonts\\simsun.ttf", BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
+/*        String resource = getClass().getClassLoader().getResource("simsun.ttf").getPath();
+        fontResolver.addFont(resource, BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);*/
+//        fontResolver.addFont("http://static.test.ckmro.com:9035/static/simsun.ttf", BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
+/*        System.out.println("字体处理开始:"+new Date());
+        fontResolver.addFont("http://static.ckmro.com:8082/static/simsun.ttf", BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
+        System.out.println("字体处理结束:"+new Date());*/
+        String fontSimSun = "http://static.test.ckmro.com:9035/static/simsun.ttf";
+        try{
+            InputStream resourceAsStream = this.getClass().getClassLoader().getResourceAsStream("simsun.ttf");
+            File file = new File("D:\\workspace\\simsun.ttf");
+            if (!file.exists()) {
+                file.createNewFile();
+            }
+            FileCopyUtils.copy(resourceAsStream, new FileOutputStream(file));
+            fontSimSun = "D:\\workspace\\simsun.ttf";
+        }catch (FileNotFoundException e) {
+            System.out.println("获取File失败");
+        } catch (IOException e) {
+            System.out.println("文件拷贝失败");
+        }
+        fontResolver.addFont(fontSimSun, BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
         // 解决图片的相对路径问题
         renderer.getSharedContext().setBaseURL("imagePath");
         renderer.setDocument(url);
@@ -247,8 +270,8 @@ public class FileConverter {
         doc.select("html").before("<?xml version='1.0' encoding='UTF-8'>");
         Elements style = doc.getElementsByTag("style");
         style.get(0).append("body {\n" +
-                "            font-family: SimSun;\n"  +
-                "@page{size: A4}");
+                "            font-family: SimSun;}\n" +
+                "@page { size: A4 }");
         Elements select = doc.select("body > *");
         List<Element> list = new ArrayList<>(select);
         while (list.size() > 0) {
@@ -259,6 +282,53 @@ public class FileConverter {
             list.addAll(select1);
             list.remove(element);
         }
+        /*
+         * Jsoup只是解析，不能保存修改，所以要在这里保存修改。
+         */
+        FileOutputStream fos = new FileOutputStream(f, false);
+        OutputStreamWriter osw = new OutputStreamWriter(fos, "UTF-8");
+        osw.write(doc.html());
+        osw.close();
+    }
+
+    /*
+     * xhtml转成标准html文件
+     * targetHtml:要处理的html文件路径
+     */
+    public static void standardHTMLByTemplate(String targetHtml) throws IOException {
+        File f = new File(targetHtml);
+        org.jsoup.nodes.Document doc = Jsoup.parse(f, "UTF-8");
+
+        doc.select("meta").removeAttr("name");
+        doc.select("meta").attr("content", "text/html; charset=UTF-8");
+        doc.select("meta").attr("http-equiv", "Content-Type");
+        doc.select("meta").html("&nbsp");
+        doc.select("img").html("&nbsp");
+        doc.select("style").attr("mce_bogus", "1");
+        doc.select("style").html("");
+        doc.select("body").attr("style", "font-family: SimSun");
+        doc.select("html").before("<?xml version='1.0' encoding='UTF-8'>");
+        Elements style = doc.getElementsByTag("style");
+        style.get(0).append("span{" +
+                "            color:black}" +
+                "body {\n" +
+                "            font-family: SimSun;}\n" +
+                "@page { size: A4 }");
+        Elements select = doc.select("body > *");
+        List<Element> list = new ArrayList<>(select);
+        while (list.size() > 0) {
+            Element element = list.get(0);
+            element.attr("style", "font-family: SimSun;");//;
+            Elements select1 = element.getAllElements();
+            select1.remove(element);
+            list.addAll(select1);
+            list.remove(element);
+        }
+        Element element = doc.select("div").get(1);
+        element.attr("align", "left");
+        Elements tables = doc.select("table");
+        Element table1 = tables.get(1);
+        table1.attr("border", "1px");
         /*
          * Jsoup只是解析，不能保存修改，所以要在这里保存修改。
          */
