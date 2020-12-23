@@ -259,6 +259,12 @@ public class FileConverter {
                 "    display: block; text-align: right;\n" +
                 "    position: running(footer);\n" +
                 "}\n" +
+                "#pagenumber:before {\n" +
+                "    content: counter(page);\n" +
+                "}\n" +
+                "#pagecount:before {\n" +
+                "    content: counter(pages);\n" +
+                "}" +
                 "div.content {page-break-after: always;}\n" +
                 "@page {\n" +
                 "     @top-center { content: element(header) }\n" +
@@ -280,8 +286,8 @@ public class FileConverter {
         Element element4 = element3ElementsByDiv.get(0);
         element4.attr("align", "left");
 
-        divs.get(0).before("    <div class='header'><img style=\"height:50pt\" src='http://static.ckmro.com:8082/static/contract.files/image001.png'/></div>\n" +
-                "    <div class='footer'></div>");
+        divs.get(0).before("    <div class='header'><img style=\"height:50pt\" src='/tmp/yemei.png'/></div>\n" +
+                "    <div class='footer'><span id=\"pagenumber\"></span></div>");
         /*
          * Jsoup只是解析，不能保存修改，所以要在这里保存修改。
          */
@@ -322,3 +328,4 @@ public class FileConverter {
     }
 
 }
+//https://cloud.tencent.com/developer/ask/44759

@@ -29,7 +29,7 @@ public class Main {
     }
     @Test
     public void testdoc2PDF4() throws Exception {
-        String sourcePath = "D:\\test\\合同模版-慢.doc";
+        String sourcePath = "D:\\test\\20200624103913.doc";
         String destPath = "D:\\test\\test.html";
         String destPath2 = "D:\\test\\test.xhtml";
         String imagePath = "D:\\test";
@@ -43,8 +43,8 @@ public class Main {
             fileOutputStream.write(bytes, 0, ch);
         }
         FileConverter fileConverter = new FileConverter();
-//        fileConverter.parseToXhtml(destPath, destPath2);
-//        FileConverter.standardHTMLByTemplate(destPath2);
+        fileConverter.parseToXhtml(destPath, destPath2);
+        FileConverter.standardHTMLByTemplate(destPath2);
         fileConverter.convertHtmlToPdf(destPath2, pdfPath);
 
     }
