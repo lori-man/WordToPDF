@@ -15,7 +15,7 @@ public class Main {
 
     @Test
     public void testdoc2PDF() throws Exception {
-        String sourcePath = "D:\\test\\20201104112910.doc";
+        String sourcePath = "D:\\test\\hello.doc";
         String destPath = "D:\\test\\hello.html";
         String destPath2 = "D:\\test\\hello.xhtml";
         String imagePath = "D:\\test";
@@ -43,8 +43,8 @@ public class Main {
             fileOutputStream.write(bytes, 0, ch);
         }
         FileConverter fileConverter = new FileConverter();
-        fileConverter.parseToXhtml(destPath, destPath2);
-        FileConverter.standardHTMLByTemplate(destPath2);
+//        fileConverter.parseToXhtml(destPath, destPath2);
+//        FileConverter.standardHTMLByTemplate(destPath2);
         fileConverter.convertHtmlToPdf(destPath2, pdfPath);
 
     }
@@ -93,18 +93,13 @@ public class Main {
 
     @Test
     public void testdoc2PDF2() throws Exception {
-        String sourcePath = "D:\\test\\hello.doc";
+        String sourcePath = "D:\\test\\hello1.doc";
         String destPath = "D:\\test\\hello.html";
         String imagePath = "D:\\test";
         String pdfPath = "D:\\test\\hello.pdf";
         String fontPath = "D:\\test\\simsun.ttf";
         FileInputStream fileInputStream = new FileInputStream(sourcePath);
         word2PDF.docToPDF(fileInputStream, destPath, pdfPath,fontPath);
-    }
-
-    @Test
-    public void html2Word() {
-
     }
 
     @Test

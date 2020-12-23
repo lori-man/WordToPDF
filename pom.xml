@@ -100,6 +100,11 @@
             <artifactId>flying-saucer-pdf</artifactId>
             <version>9.0.8</version>
         </dependency>
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>font-asian</artifactId>
+            <version>7.1.11</version>
+        </dependency>
         <!--itext end-->
 
         <dependency>
