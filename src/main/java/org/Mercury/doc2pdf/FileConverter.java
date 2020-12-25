@@ -250,7 +250,7 @@ public class FileConverter {
                 "            color:black}" +
                 "body {\n" +
                 "            font-family: SimSun;}\n" +
-                "@page { size: A4 }" +
+                "@page { size: A4;padding-top: 60pt }" +
                 "div.header {\n" +
                 "    display: block; text-align: center; \n" +
                 "    position: running(header);\n" +
@@ -286,8 +286,25 @@ public class FileConverter {
         Element element4 = element3ElementsByDiv.get(0);
         element4.attr("align", "left");
 
-        divs.get(0).before("    <div class='header'><img style=\"height:50pt\" src='/tmp/yemei.png'/></div>\n" +
+        divs.get(0).before("    <div class='header'><img style=\"height:80pt;margin-top: 20pt\" src='http://static.ckmro.com:8082/static/contract.files/image001.png'/></div>\n" +
                 "    <div class='footer'><span id=\"pagenumber\"></span></div>");
+
+        //处理legal表格
+        Element legalTable = tables.get(2);
+        Elements rows = legalTable.getElementsByTag("tr");
+        for (Element row : rows) {
+//            row.attr("text-align", "left");
+            Elements allElements = row.getAllElements();
+            boolean b = allElements.stream().anyMatch(smallEle -> {
+                return "&nbsp;".equals(smallEle.html());
+            });
+            if (b) {
+                row.remove();
+            }
+        }
+        Element lastDiv = divs.get(divs.size() - 1);
+        lastDiv.attr("style", "font-family: SimSun;padding-left: 45pt");
+        lastDiv.attr("align", "left");
         /*
          * Jsoup只是解析，不能保存修改，所以要在这里保存修改。
          */
