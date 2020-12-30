@@ -292,9 +292,13 @@ public class FileConverter {
         //处理legal表格
         Element legalTable = tables.get(2);
         Elements rows = legalTable.getElementsByTag("tr");
+        legalTable.attr("width", "100%");
         for (Element row : rows) {
 //            row.attr("text-align", "left");
             Elements allElements = row.getAllElements();
+            allElements.removeAttr("width");
+            Elements tds = row.getElementsByTag("td");
+            tds.attr("width", "50%");
             boolean b = allElements.stream().anyMatch(smallEle -> {
                 return "&nbsp;".equals(smallEle.html());
             });
@@ -303,7 +307,7 @@ public class FileConverter {
             }
         }
         Element lastDiv = divs.get(divs.size() - 1);
-        lastDiv.attr("style", "font-family: SimSun;padding-left: 45pt");
+//        lastDiv.attr("style", "font-family: SimSun;padding-left: 45pt");
         lastDiv.attr("align", "left");
         /*
          * Jsoup只是解析，不能保存修改，所以要在这里保存修改。
