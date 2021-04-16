@@ -112,10 +112,10 @@
             <artifactId>core-renderer</artifactId>
             <version>R8</version>
         </dependency>
-        <dependency>
+<!--        <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
-        </dependency>
+        </dependency>-->
 
         <!--Test-->
         <dependency>
@@ -139,19 +139,6 @@
             <artifactId>jtidy</artifactId>
             <version>r938</version>
         </dependency>
-
-        <!--docx4j-->
-        <!--<dependency>
-            <groupId>org.docx4j</groupId>
-            <artifactId>docx4j</artifactId>
-            <version>${docx4j.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.docx4j</groupId>
-            <artifactId>docx4j-export-fo</artifactId>
-            <version>${export.fo.version}</version>
-        </dependency>-->
-
 
         <!--docx4j word转pdf-->
         <dependency>

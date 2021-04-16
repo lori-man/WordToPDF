@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f13ff1e-a539-4b68-8ea8-b062a93545c8" name="Default" comment="last">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Mercury/doc2pdf/Doc2PDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Word2PDF.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/PDFUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/PDFUtil$Footer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/PDFUtil$Header.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/PDFUtil$PageXofYTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/PDFUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/doc2pdf/FileConverter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/doc2pdf/FileConverter$MyPicturesManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/doc2pdf/FileConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/docx2pdf/Converter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/docx2pdf/DocToPDFConverter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/docx2pdf/DocToPDFConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/docx2pdf/DocxToPDFConverter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/docx2pdf/DocxToPDFConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/docx4j/Docx2PDF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/docx4j/WordUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/word2PDF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/simsun.ttc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/simsun.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Word2PDF" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>document</find>
+      <find>DrawInterface</find>
+      <find>addFon</find>
+      <find>t</find>
+      <find>addFont</find>
+      <find>url</find>
+      <find>common</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../halo-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/word2html.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/Word2Html.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/Doc2Html.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/Docx2Html.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/Html2PDF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/PdfUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2pdf/B64ImgReplacedElementFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/doc2html/Word2Html.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/doc2html/Wmf2Png.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/doc2html/JsoupUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2pdf/PdfUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/doc2html/Docx2Html.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/doc2html/Doc2Html.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/SimsunFontProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/docxl2pdf/FileConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/FileConverterPro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/Word2PdfUtilt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/Converter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/DocxToPDFConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/DocToPDFConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2pdf/Html2PDF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2pdf/DefineFontProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2pdf/AsianFontProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2pdf/HtmlToPDF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/docx2pdf/FileConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/FileConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/docx2pdf/excel2pdf/model/Excel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/docx2pdf/excel2pdf/ExcelToPDF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/docx2pdf/excel2pdf/POIUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/docx2pdf/word2pdf/DocxToPDF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2pdf/MSOfficeGeneratorUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2pdf/WordUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2pdf/PdfUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2pdf/html2pdf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/ITextFontResolverImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2word/CustomXWPFDocument.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2word/OfficeUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/Token.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2word/HtmlToWord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2word/hello.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/PDFUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2Word/itextPdf/ImageUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2Word/itextPdf/Html2Word.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/html2Word/poi/Html2Word.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/word2PDF.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/doc2pdf/FileConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/Mercury/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\soft\repository" />
+        <option name="mavenHome" value="D:\soft\apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\soft\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Word2PDF" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Word2PDF" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Word2PDF" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.itextpdf:itext-xtra:5.5.12" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1080" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectId" id="1rEOW6rTmeW7Gcfx3Xxw1GIU3jv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Word2PDF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Word2PDF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Word2PDF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Word2PDF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Word2PDF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Word2PDF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Word2PDF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Word2PDF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Word2PDF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Word2PDF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Word2PDF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Word2PDF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="Mercury" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Word2PDF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Word2PDF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="Mercury" type="462c0819:PsiDirectoryNode" />
+              <item name="doc2pdf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Word2PDF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Word2PDF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15661478" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.Mercury.doc2html" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.Mercury" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\Word2PDF\src\main\resources" />
+      <recent name="D:\workspace\Word2PDF\src\main\java\org\Mercury\docx2pdf" />
+      <recent name="D:\workspace\Word2PDF\src\main\java\org\Mercury\doc2html" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Main.testdoc2PDF4">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.html2Word" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Word2PDF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Mercury.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Mercury" />
+      <option name="MAIN_CLASS_NAME" value="org.Mercury.Main" />
+      <option name="METHOD_NAME" value="html2Word" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.testdoc2PDF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Word2PDF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Mercury.docx2pdf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Mercury" />
+      <option name="MAIN_CLASS_NAME" value="org.Mercury.Main" />
+      <option name="METHOD_NAME" value="testdoc2PDF" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.testdoc2PDF2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Word2PDF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Mercury.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Mercury" />
+      <option name="MAIN_CLASS_NAME" value="org.Mercury.Main" />
+      <option name="METHOD_NAME" value="testdoc2PDF2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.testdoc2PDF4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Word2PDF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Mercury.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Mercury" />
+      <option name="MAIN_CLASS_NAME" value="org.Mercury.Main" />
+      <option name="METHOD_NAME" value="testdoc2PDF4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.testdoc2PDF5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Word2PDF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Mercury.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Mercury" />
+      <option name="MAIN_CLASS_NAME" value="org.Mercury.Main" />
+      <option name="METHOD_NAME" value="testdoc2PDF5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Main.testdoc2PDF" />
+      <item itemvalue="JUnit.Main.testdoc2PDF4" />
+      <item itemvalue="JUnit.Main.testdoc2PDF2" />
+      <item itemvalue="JUnit.Main.testdoc2PDF5" />
+      <item itemvalue="JUnit.Main.html2Word" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Main.testdoc2PDF4" />
+        <item itemvalue="JUnit.Main.testdoc2PDF" />
+        <item itemvalue="JUnit.Main.html2Word" />
+        <item itemvalue="JUnit.Main.testdoc2PDF2" />
+        <item itemvalue="JUnit.Main.testdoc2PDF5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f13ff1e-a539-4b68-8ea8-b062a93545c8" name="Default" comment="" />
+      <created>1592225015268</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592225015268</updated>
+      <workItem from="1592225016828" duration="4226000" />
+      <workItem from="1592266440756" duration="27943000" />
+      <workItem from="1592353797821" duration="7692000" />
+      <workItem from="1592387941960" duration="392000" />
+      <workItem from="1592439970501" duration="578000" />
+      <workItem from="1592441311952" duration="844000" />
+      <workItem from="1592444201476" duration="1138000" />
+      <workItem from="1592445347419" duration="17869000" />
+      <workItem from="1592526647023" duration="98000" />
+      <workItem from="1592530105062" duration="9095000" />
+      <workItem from="1592546213127" duration="28000" />
+      <workItem from="1592546546924" duration="127000" />
+      <workItem from="1592547108744" duration="36000" />
+      <workItem from="1592549288513" duration="645000" />
+      <workItem from="1592557207739" duration="229000" />
+      <workItem from="1592557452859" duration="1233000" />
+      <workItem from="1592561471858" duration="23000" />
+      <workItem from="1592628778766" duration="15000" />
+      <workItem from="1592628820711" duration="36000" />
+      <workItem from="1592647301702" duration="606000" />
+      <workItem from="1592724373563" duration="13000" />
+      <workItem from="1592811253922" duration="2141000" />
+      <workItem from="1592826275779" duration="2961000" />
+      <workItem from="1592869743520" duration="5357000" />
+      <workItem from="1592879195049" duration="8710000" />
+      <workItem from="1592966834729" duration="7795000" />
+      <workItem from="1593398683813" duration="1266000" />
+      <workItem from="1593414171705" duration="2659000" />
+      <workItem from="1595205473499" duration="140000" />
+      <workItem from="1595298832603" duration="9860000" />
+      <workItem from="1604470739783" duration="2672000" />
+      <workItem from="1604536844225" duration="504000" />
+      <workItem from="1608517018901" duration="12170000" />
+      <workItem from="1608596825562" duration="21504000" />
+      <workItem from="1608683902359" duration="8641000" />
+      <workItem from="1608716517186" duration="1146000" />
+      <workItem from="1608770094052" duration="2763000" />
+      <workItem from="1608803474475" duration="367000" />
+      <workItem from="1608855714845" duration="8533000" />
+      <workItem from="1608867599856" duration="1195000" />
+      <workItem from="1608879168088" duration="935000" />
+      <workItem from="1608887722320" duration="208000" />
+      <workItem from="1609289736761" duration="41000" />
+      <workItem from="1618537812383" duration="65000" />
+      <workItem from="1618537883061" duration="59000" />
+      <workItem from="1618537949824" duration="301000" />
+      <workItem from="1618538318577" duration="778000" />
+      <workItem from="1618539126537" duration="458000" />
+    </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1592388054954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592388054954</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ok">
+      <created>1592466537682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592466537682</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ok">
+      <created>1608517071301</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608517071301</updated>
+    </task>
+    <task id="LOCAL-00004" summary="overwrite">
+      <created>1608705397667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608705397667</updated>
+    </task>
+    <task id="LOCAL-00005" summary="footer">
+      <created>1608710674314</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608710674314</updated>
+    </task>
+    <task id="LOCAL-00006" summary="left align">
+      <created>1608865166584</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608865166584</updated>
+    </task>
+    <task id="LOCAL-00007" summary="last">
+      <created>1609289757335</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609289757335</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Main_testdoc2PDF4 - 2020.12.25 at 10h 40m 12s.xml">
+      <configuration name="Main.testdoc2PDF4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testdoc2PDF4 - 2020.12.25 at 10h 41m 55s.xml">
+      <configuration name="Main.testdoc2PDF4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testdoc2PDF4 - 2020.12.25 at 10h 44m 53s.xml">
+      <configuration name="Main.testdoc2PDF4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testdoc2PDF4 - 2020.12.25 at 10h 46m 07s.xml">
+      <configuration name="Main.testdoc2PDF4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testdoc2PDF4 - 2020.12.25 at 10h 46m 42s.xml">
+      <configuration name="Main.testdoc2PDF4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testdoc2PDF4 - 2020.12.25 at 10h 46m 59s.xml">
+      <configuration name="Main.testdoc2PDF4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testdoc2PDF4 - 2020.12.25 at 14h 57m 07s.xml">
+      <configuration name="Main.testdoc2PDF4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testdoc2PDF4 - 2020.12.25 at 14h 58m 40s.xml">
+      <configuration name="Main.testdoc2PDF4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testdoc2PDF4 - 2020.12.25 at 15h 03m 46s.xml">
+      <configuration name="Main.testdoc2PDF4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testdoc2PDF4 - 2020.12.25 at 17h 18m 05s.xml">
+      <configuration name="Main.testdoc2PDF4" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="174434000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010638" side_tool="true" weight="0.3635347" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32942432" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893618" weight="0.31991053" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.73578596" visible="true" weight="0.13859275" />
+      <window_info anchor="bottom" id="JProfiler" order="8" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" sideWeight="0.26421404" side_tool="true" weight="0.25478724" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Favorites" order="2" sideWeight="0.50165564" side_tool="true" weight="0.25266525" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4116331" />
+      <window_info anchor="bottom" id="JRebel Executor" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32885906" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Redis Servers" order="3" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893618" visible="true" weight="0.31991053" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50165564" side_tool="true" weight="0.25266525" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010638" side_tool="true" weight="0.3635347" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32885906" />
+      <window_info anchor="right" id="Mongo Explorer" order="10" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="JProfiler" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32942432" />
+      <window_info id="Structure" order="1" sideWeight="0.26421404" side_tool="true" weight="0.25478724" />
+      <window_info anchor="bottom" id="JRebel Executor" order="11" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73578596" visible="true" weight="0.2553305" />
+      <window_info anchor="bottom" id="JRebel Console" order="12" side_tool="true" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Redis Servers" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4116331" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <MESSAGE value="ok" />
+    <MESSAGE value="overwrite" />
+    <MESSAGE value="footer" />
+    <MESSAGE value="left align" />
+    <MESSAGE value="last" />
+    <option name="LAST_COMMIT_MESSAGE" value="last" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="url.hash" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/docx2pdf/word2pdf/DocxToPDF.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.14/poi-3.14-sources.jar!/org/apache/poi/POIDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-scratchpad/3.14/poi-scratchpad-3.14-sources.jar!/org/apache/poi/hwpf/HWPFDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/html2pdf.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/html2pdf/MSOfficeGeneratorUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/html2pdf/WordUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/html2pdf/html2pdf.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/html2pdf/PdfUtils.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/jtidy/jtidy/r938/jtidy-r938-sources.jar!/org/w3c/tidy/Tidy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE-sources.jar!/org/springframework/core/io/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.7.0-M1/junit-platform-commons-1.7.0-M1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="687" selection-start-line="687" selection-end-line="687" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/ITextFontResolverImpl.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/xhtmlrenderer/flying-saucer-pdf/9.0.8/flying-saucer-pdf-9.0.8-sources.jar!/org/xhtmlrenderer/pdf/ITextFontResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1059">
+          <caret line="608" column="29" lean-forward="true" selection-start-line="608" selection-start-column="29" selection-end-line="608" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/xhtmlrenderer/flying-saucer-pdf/9.0.8/flying-saucer-pdf-9.0.8-sources.jar!/org/xhtmlrenderer/pdf/TrueTypeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/lowagie/itext/2.1.7/itext-2.1.7.jar!/com/lowagie/text/pdf/BaseFont.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="99" column="35" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE-sources.jar!/org/springframework/util/StreamUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4140">
+          <caret line="141" column="48" selection-start-line="141" selection-start-column="48" selection-end-line="141" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/simsun.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/docx2pdf/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/docx2pdf/DocToPDFConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1440">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/docx2pdf/DocxToPDFConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/docx4j/Docx2PDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1031">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/docx4j/WordUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4176">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE-sources.jar!/org/springframework/util/FileCopyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/html2word/CustomXWPFDocument.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/Token.java" />
+    <entry file="file://$MAVEN_REPOSITORY$/com/itextpdf/font-asian/7.1.11/font-asian-7.1.11.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/lowagie/itext/2.1.7/itext-2.1.7.jar!/com/lowagie/text/pdf/PdfWriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3421">
+          <caret line="195" column="14" selection-start-line="195" selection-start-column="14" selection-end-line="195" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/html2word/OfficeUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/html2word/HtmlToWord.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/html2word/hello.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/PDFUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6264">
+          <caret line="196" column="11" selection-start-line="196" selection-start-column="11" selection-end-line="196" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/xhtmlrenderer/flying-saucer-core/9.0.8/flying-saucer-core-9.0.8-sources.jar!/org/xhtmlrenderer/resource/XMLResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/html2Word.java" />
+    <entry file="jar://$PROJECT_DIR$/../../soft/jdk1.8/src.zip!/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="1026" column="26" selection-start-line="1026" selection-start-column="26" selection-end-line="1026" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/xhtmlrenderer/flying-saucer-pdf/9.0.8/flying-saucer-pdf-9.0.8-sources.jar!/org/xhtmlrenderer/pdf/ITextRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="162" column="16" selection-start-line="162" selection-start-column="16" selection-end-line="162" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.7.3/jsoup-1.7.3-sources.jar!/org/jsoup/select/Elements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/word2PDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.7.3/jsoup-1.7.3-sources.jar!/org/jsoup/nodes/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/xhtmlrenderer/core-renderer/R8/core-renderer-R8.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/xhtmlrenderer/flying-saucer-core/9.0.8/flying-saucer-core-9.0.8-sources.jar!/org/xhtmlrenderer/swing/UriResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/xhtmlrenderer/flying-saucer-core/9.0.8/flying-saucer-core-9.0.8-sources.jar!/org/xhtmlrenderer/swing/DelegatingUserAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="177" column="24" selection-start-line="177" selection-start-column="24" selection-end-line="177" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/xhtmlrenderer/flying-saucer-core/9.0.8/flying-saucer-core-9.0.8-sources.jar!/org/xhtmlrenderer/swing/NaiveUserAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="272" column="16" selection-start-line="272" selection-start-column="16" selection-end-line="272" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/xhtmlrenderer/flying-saucer-core/9.0.8/flying-saucer-core-9.0.8-sources.jar!/org/xhtmlrenderer/extend/UserAgentCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/xhtmlrenderer/flying-saucer-core/9.0.8/flying-saucer-core-9.0.8-sources.jar!/org/xhtmlrenderer/layout/SharedContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="443" column="16" selection-start-line="443" selection-start-column="16" selection-end-line="443" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-853">
+          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/html2Word/itextPdf/ImageUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/html2Word/poi/Html2Word.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/html2Word/itextPdf/Html2Word.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.7.3/jsoup-1.7.3-sources.jar!/org/jsoup/nodes/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8676">
+          <caret line="272" column="7" selection-start-line="272" selection-start-column="7" selection-end-line="272" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/Mercury/doc2pdf/FileConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="299" column="30" selection-start-line="299" selection-start-column="30" selection-end-line="299" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Word2PDF</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.github.virtuald:curvesapi:1.03</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
