@@ -21,7 +21,7 @@
     </build>
 
     <properties>
-        <poi.version>3.14</poi.version>
+        <poi.version>4.1.2</poi.version>
         <itext.version>5.5.12</itext.version>
         <itext.version2>2.1.0</itext.version2>
         <!--5.5.12-->
@@ -185,17 +185,17 @@
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
-            <version>3.14</version><!--$NO-MVN-MAN-VER$-->
+            <version>4.1.2</version><!--$NO-MVN-MAN-VER$-->
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-scratchpad</artifactId>
-            <version>3.14</version><!--$NO-MVN-MAN-VER$-->
+            <version>4.1.2</version><!--$NO-MVN-MAN-VER$-->
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
-            <version>3.14</version><!--$NO-MVN-MAN-VER$-->
+            <version>4.1.2</version><!--$NO-MVN-MAN-VER$-->
         </dependency>
 
         <dependency>
