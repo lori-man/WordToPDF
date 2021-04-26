@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f13ff1e-a539-4b68-8ea8-b062a93545c8" name="Default" comment="last">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Mercury/doc2pdf/Doc2PDF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Word2PDF.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/PDFUtil$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/PDFUtil$Footer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/PDFUtil$Header.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/PDFUtil$PageXofYTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/PDFUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/doc2pdf/FileConverter$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/doc2pdf/FileConverter$MyPicturesManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/doc2pdf/FileConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/docx2pdf/Converter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/docx2pdf/DocToPDFConverter$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/docx2pdf/DocToPDFConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/docx2pdf/DocxToPDFConverter$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/docx2pdf/DocxToPDFConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/docx4j/Docx2PDF.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/docx4j/WordUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/Mercury/word2PDF.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/simsun.ttc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/simsun.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -466,7 +444,7 @@
       <workItem from="1618537883061" duration="59000" />
       <workItem from="1618537949824" duration="301000" />
       <workItem from="1618538318577" duration="778000" />
-      <workItem from="1618539126537" duration="458000" />
+      <workItem from="1618539126537" duration="3965000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1592388054954</created>
@@ -517,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609289757335</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="last">
+      <created>1618539901829</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618539901829</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
