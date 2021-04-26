@@ -27,6 +27,7 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class FileConverter {
@@ -250,13 +251,21 @@ public class FileConverter {
                 "            color:black}" +
                 "body {\n" +
                 "            font-family: SimSun;}\n" +
-                "@page { size: A4;padding-top: 60pt }" +
+//                "@page { size: A4;padding-top: 60pt }" +
+                "@page { size: A4;padding: 48pt;padding-top: 60pt }" +
                 "div.header {\n" +
-                "    display: block; text-align: center; \n" +
+                "    padding-left:53pt;display: block; text-align: center; \n" +
                 "    position: running(header);\n" +
                 "}\n" +
+                "p.MsoNormal, li.MsoNormal, div.MsoNormal {\n" +
+                "    margin: 0cm;\n" +
+                "    margin-bottom: .0001pt;\n" +
+                "    line-height: 15.75pt;\n" +
+                "    font-size: 10.5pt;\n" +
+                "    font-family: 宋体;\n" +
+                "}" +
                 "div.footer {\n" +
-                "    display: block; text-align: right;\n" +
+                "    margin-bottom:10pt;display: block; text-align: right;\n" +
                 "    position: running(footer);\n" +
                 "}\n" +
                 "#pagenumber:before {\n" +
@@ -286,8 +295,65 @@ public class FileConverter {
         Element element4 = element3ElementsByDiv.get(0);
         element4.attr("align", "left");
 
-        divs.get(0).before("    <div class='header'><img style=\"height:80pt;margin-top: 20pt\" src='http://static.ckmro.com:8082/static/contract.files/image001.png'/></div>\n" +
+        divs.get(0).before("    <div class='header'><img style=\"height:65pt;margin-top: 20pt\" src='http://static.ckmro.com:8082/static/contract.files/image001.png'/></div>\n" +
                 "    <div class='footer'><span id=\"pagenumber\"></span></div>");
+
+        //处理字体大小
+        Elements spans = doc.body().select("span");
+        spans.attr("style", "font-family: SimSun;font-size:10.5pt");
+        //采控网销售合同
+        Iterator<Element> iterator = spans.iterator();
+        Element first = iterator.next();
+        Element second = iterator.next();
+        second.attr("style", "font-family: SimSun;font-size:22.0pt");
+//        //合同编号
+        Element firstDiv = divs.get(0);
+        Elements ps = firstDiv.select("p");
+//        Element p1 = ps.get(1);
+//        p1.attr("style","text-indent:240.0pt;line-height:4.0pt;text-autospace:\n" +
+//                "none;vertical-align:bottom;font-family: SimSun;font-size:10.5pt");
+//        //甲乙方
+//        Element companyTables = tables.get(0);
+//        Elements companyPs = companyTables.getElementsByTag("p");
+//        companyPs.attr("style", "line-height:4.0pt;text-autospace:none;vertical-align:\n" +
+//                "  bottom;font-family: SimSun;font-size:10.5pt");
+        //清除换行
+        Element lineP = ps.get(4);
+        lineP.remove();
+        //供货清单
+        Element supplyTable = tables.get(1);
+        Elements supplyRows = supplyTable.getElementsByTag("tr");
+        Element supplyHeader = supplyRows.get(0);
+//        Elements supplyHeadSpans = supplyHeader.getElementsByTag("span");
+//        supplyHeadSpans.attr("style", "font-family: SimSun;font-size:8.5pt;font-weight:bold");
+        supplyHeader.html("<td><span style='font-size:10.0pt; font-family:SimSun; color:black'>序号<span lang=EN-US></td>" +
+                "<td><span style='font-size:10.0pt; font-family:SimSun; color:black'>品牌<span lang=EN-US></td>" +
+                "<td><span style='font-size:10.0pt; font-family:SimSun; color:black'>品名<span lang=EN-US></td>" +
+                "<td><span style='font-size:10.0pt; font-family:SimSun; color:black'>型号<span lang=EN-US></td>" +
+                "<td><span style='font-size:10.0pt; font-family:SimSun; color:black'>单位<span lang=EN-US></td>" +
+                "<td><span style='font-size:10.0pt; font-family:SimSun; color:black'>数量<span lang=EN-US></td>" +
+                "<td><span style='font-size:10.0pt; font-family:SimSun; color:black'>单价(元)<span lang=EN-US></td>" +
+                "<td><span style='font-size:10.0pt; font-family:SimSun; color:black'>金额(元)<span lang=EN-US></td>" +
+                "<td><span style='font-size:10.0pt; font-family:SimSun; color:black'>付款金额(元)<span lang=EN-US></td>" +
+                "<td><span style='font-size:10.0pt; font-family:SimSun; color:black'>货期(天)<span lang=EN-US></td>" +
+                "<td><span style='font-size:10.0pt; font-family:SimSun; color:black'>备注<span lang=EN-US></td></tr>");
+
+        for (int i = 1; i < supplyRows.size(); i++) {
+            Element supplyRow = supplyRows.get(i);
+            Elements supplyRowSpans = supplyRow.getElementsByTag("span");
+            supplyRowSpans.attr("style", "font-family: SimSun;font-size:8.5pt;color:black'");
+        }
+        //处理换行
+        Elements divBrs = firstDiv.getElementsByTag("br");
+        divBrs.get(0).remove();
+        divBrs.get(1).remove();
+        //处理段落间距
+//        for (int i = 5; i < ps.size(); i++) {
+//            Element paragraphP = ps.get(i);
+//            String paragraphStyle = paragraphP.attr("style");
+//            paragraphStyle = paragraphStyle.replace("line-height:20.0pt", "line-height:10.0pt");
+//            paragraphP.attr("style", paragraphStyle);
+//        }
 
         //处理legal表格
         Element legalTable = tables.get(2);
@@ -320,15 +386,24 @@ public class FileConverter {
 
     private static void setTagFont(org.jsoup.nodes.Document doc) {
         Elements select = doc.select("body > *");
-        List<Element> list = new ArrayList<>(select);
-        while (list.size() > 0) {
-            Element element = list.get(0);
-            element.attr("style", "font-family: SimSun;");
-            Elements select1 = element.getAllElements();
-            select1.remove(element);
-            list.addAll(select1);
-            list.remove(element);
+        List<Element> list = new ArrayList<>();
+        for (Element element : select) {
+            Elements allElements = element.getAllElements();
+            list.addAll(allElements);
         }
+
+        list.stream().forEach(element -> {
+            String style = element.attr("style");
+            element.attr("style", style + ";font-family: SimSun;font-size:10.5pt");
+        });
+//        while (list.size() > 0) {
+//            Element element = list.get(0);
+//            element.attr("style", "font-family: SimSun;font-size:10.5pt");
+//            Elements select1 = element.getAllElements();
+//            select1.remove(element);
+//            list.addAll(select1);
+//            list.remove(element);
+//        }
     }
 
     private class MyPicturesManager implements PicturesManager {
